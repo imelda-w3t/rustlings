@@ -1,4 +1,9 @@
 fn bigger(a: i32, b: i32) -> i32 {
+    if a >= b {
+        a
+    } else {
+        b
+    }
     // TODO: Complete this function to return the bigger number!
     // If both numbers are equal, any of them can be returned.
     // Do not use:
@@ -7,6 +12,9 @@ fn bigger(a: i32, b: i32) -> i32 {
 }
 
 fn main() {
+    println!("Bigger of 10 and 8 is {}", bigger(10, 8));
+    println!("Bigger of 32 and 42 is {}", bigger(32, 42));
+    println!("Bigger of 42 and 42 is {}", bigger(42, 42));
     // You can optionally experiment here.
 }
 
