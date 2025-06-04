@@ -1,4 +1,5 @@
 fn main() {
+
     // You can optionally experiment here.
 }
 
@@ -11,6 +12,8 @@ mod tests {
         // TODO: Use a tuple index to access the second element of `numbers`
         // and assign it to a variable called `second`.
         // let second = ???;
+
+        let second = numbers.1; // Accessing the second element of the tuple
 
         assert_eq!(second, 2, "This is not the 2nd number in the tuple!");
     }
