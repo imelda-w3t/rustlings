@@ -1,6 +1,6 @@
 DON'T EDIT THIS FILE!
 
-structs3
+enums1
 
 intro1
 intro2
@@ -26,3 +26,4 @@ vecs1
 vecs2
 structs1
 structs2
+structs3
