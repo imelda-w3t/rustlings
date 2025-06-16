@@ -1,4 +1,3 @@
-use std::{fmt::format, string};
 
 fn trim_me(input: &str) -> &str {
     input.trim()
